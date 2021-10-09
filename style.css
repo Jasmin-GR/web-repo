@@ -83,10 +83,26 @@ button{
   margin:10px;
   padding: 10px 30px;
 }
+button2{
+  background-color: #a970ff;
+  font-family: 'Anonymous Pro', monospace;
+  color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  margin:10px;
+  padding: 10px 30px;
+}
 button:active{
   background-color: #3f37c9;
 }
 button:hover{
+  border: solid white 3px;
+
+}
+button2:active{
+  background-color: #3f37c9;
+}
+button2:hover{
   border: solid white 3px;
 
 }
