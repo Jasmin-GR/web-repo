@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My First Site</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/xyz3zmh.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/xyz3zmh.css">
+</head>
+
+<body>
+
+  <!-- align everything to be centered: pictures, images, headers, etc-->
+<section id="top">
+  <h1>WELCOME TO MY SITE</h1>
+
+<section id="text">
+  <p id="text2"> Aspiring student willing to learn more about the world of data<p>
+</section>
+
+    <!--A little bit about me, add a picture of myself-->
+
+    <img src="assets/Jasmin.jpeg" alt="Picture of Jasmin Godinez" >
+<!--add information about myself-->
+
+  <h2> JASMIN GODINEZ RIVERA<br>
+  she/her/hers</h2>
+
+<!-- new heade, should be smaller than my name-->
+<section id="button">
+  <button id= "About_Button"> INFORMATION</button>
+</section>
+<section id="button2">
+  <button id="light">LIGHT MODE</button>
+</section>
+    <h3 id="aboutTitle"></h3>
+      <p id="aboutMe"> </p>
+    <h3 id="goalTitle"></h3><!-- have same size as the about me, have consistent size for header-->
+      <p id="goals"></p> <br>
+
+</section>
+    <p> Do you like Minecraft? I sure do, check out my encyclopedia: <a href="week2/index.html" target="_blank">MineWiki</a> </p>
+
+<!-- close the code-->
+
+  <script>
+  console.log("JavaScript is working")
+  document.getElementById("About_Button").addEventListener("click", buttonClicked);
+  document.getElementById("light").addEventListener("click", InfoClicked);
+  function buttonClicked(){
+    console.log("INFO LOADING")
+    document.getElementById("aboutMe").innerHTML = "Who is Jasmin? Well, I am a student studying Computer Science & Information Science with a minor in TAM at the University of Colorado Boulder. I am also a first generation so college in my family is a big deal and it has been one of the biggest accomplishment. On my free time, I enjoy watching Anime or playing video games, hanging out with friends, or going on late night adventures.";
+    document.getElementById("aboutTitle").innerHTML = "ABOUT ME";
+    document.getElementById("goalTitle").innerHTML = "MY GOALS";
+    document.getElementById("goals").innerHTML = "My goal for this class to be able to create a website! Step 1 completed, it may be a professional website but we are taking baby steps! I have had looked through website template and dissect the HTML code to mess around with the settings, but I want to be able to understand all of the proper commands. Hopefully towards the end of this class I will be able to have a better understanding of HTML.";
+  }
+  function InfoClicked(){
+    console.log("LIGHT MODE ACTIVATED")
+    document.body.style.background = "#4A4E69";
+    document.getElementById("top").style.background = "white";
+    document.getElementById("aboutMe").style.color = "#4A4E69";
+    document.getElementById("goals").style.color = "#4A4E69";
+    document.getElementById("text2").innerHTML ="Aspiring student willing to learn more about the world of data"
+    document.getElementById("text2").style.color = "#4A4E69";
+  }
+  </script>
+
+
+</body>

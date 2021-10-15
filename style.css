@@ -1,119 +1,35 @@
-<style>
-h1 {
-padding-top: 50px;
-text-align: center;
-font-family: futura-pt, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 75px;
-color: #a970ff;
+section{
+   background-color: #bbd0ff;
+   color: white;
+   border-radius: 10px;
+   margin: 30vh 20vw;
+   padding: 10vh 10vw;
+   border: #fff solid 5px;
 }
-
-h2 {
-
-text-align: center;
-font-family: futura-pt, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 30px;
-color: #a970ff;
-
-}
-h3{
-
-text-align: center;
-font-family: futura-pt, sans-serif;
-font-weight: 700;
-font-style: normal;
-  font-size: 25px;
-  color: #a970ff;
-}
-h4{
-
-text-align: center;
-font-family: futura-pt, sans-serif;
-font-weight: 700;
-font-style: normal;
-  font-size:25px;
-  color: #a970ff;
-}
-p {
-
-text-align: center;
-font-family:  'Anonymous Pro', monospace;
-font-size: 25px;
+h1{
   color: white;
-
-}
-body{
-background-color: #0E0E10;
-padding: 20px;
-}
-#top{
-  padding-top: 50px;
   text-align: center;
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 50px;
-  color: #a970ff;
-background-color: #4A4E69;
+  font-family: 'Anonymous Pro', monospace;
 }
-img {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 20vw;
-color: white;
-border: 20px solid #4A4E69;
-}
-#text{
-text-align: center;
-font-family:  'Anonymous Pro', monospace;
-font-size: 30px;
-color: #a2aab3;
-font-style: italic;
-  }
 button{
-  background-color: #a970ff;
-  font-family: 'Anonymous Pro', monospace;
+  padding: 1vh 3vw;
+  text-align: center;
+  border-radius:8px;
+  background-color: #c8b6ff;
   color: white;
-  border-radius: 10px;
-  font-size: 30px;
-  margin:10px;
-  padding: 10px 30px;
-}
-button2{
-  background-color: #a970ff;
   font-family: 'Anonymous Pro', monospace;
-  color: white;
-  border-radius: 10px;
-  font-size: 30px;
-  margin:10px;
-  padding: 10px 30px;
-}
-button:active{
-  background-color: #3f37c9;
+  margin:10px 190px;
+  font-size: 20px;
 }
 button:hover{
-  border: solid white 3px;
-
+  border: #fff solid 5px;
 }
-button2:active{
-  background-color: #3f37c9;
-}
-button2:hover{
-  border: solid white 3px;
-
-}
-a:link{
-color: white;
-}
-a:visited{
- color: #3F37C9;
-}
-a:hover{
-color: #a970ff;
+button:active{
+  background-color: #b8c0ff;
 }
 
-</style>
+
+body{
+background-color: #c8b6ff;
+padding: 20px;
+}
