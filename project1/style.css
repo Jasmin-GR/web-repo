@@ -34,14 +34,20 @@
 h2{
   margin-top: 28px;
   font-family: 'Anonymous Pro', monospace;
+  text-align: center;
+  color: #A199FF;
+  padding-bottom: 0;
+  font-size: 1.8em;
+}
+h6{
+  margin-top: 28px;
+  font-family: 'Anonymous Pro', monospace;
+  
   color: #A199FF;
   padding-bottom: 0;
   font-size: 1.8em;
 }
 
-#dinnermenu, #brunchmenu{
-  display: none;
-}
 body{
 background-color: #d0d1ff;
 padding: 20px;
@@ -81,6 +87,7 @@ h5{
 p{
   font-family: 'Anonymous Pro', monospace;
   color: white;
+
 }
 
 
