@@ -1,0 +1,183 @@
+
+#tabs, #items{
+  display: flex;
+  font-size: 55px;
+    border: 5px solid white;
+  text-align: center;
+  margin: 25vh 10vw 0 10vw;
+}
+
+#items{
+  display: flex;
+  margin: 0vh 10vw 0 10vw;
+}
+
+
+
+}
+#quote{
+  /* background-color: #A199FF; */
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  /* border-radius: 20px; */
+  margin: -15vh -15vw;
+  padding: 10vh 10vw;
+  /* border: #fff solid 5px; */
+}
+
+#quoteSection p{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+h2{
+  margin-top: 28px;
+  font-family: 'Anonymous Pro', monospace;
+  color: #A199FF;
+  padding-bottom: 0;
+  font-size: 1.8em;
+}
+
+#dinnermenu, #brunchmenu{
+  display: none;
+}
+body{
+background-color: #d0d1ff;
+padding: 20px;
+font-family: 'Anonymous Pro', monospace;
+}
+.active{
+  background-color: #A199FF;
+}
+
+img{
+  max-height: 80%;
+  width: 80%;
+  object-fit: cover;
+  display: block;
+
+}
+h1{
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+h3{
+  font-family: 'Anonymous Pro', monospace;
+  color: white;
+}
+h4{
+  font-family: 'Anonymous Pro', monospace;
+  color: white;
+}
+h5{
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 40px;
+  color: white;
+}
+p{
+  font-family: 'Anonymous Pro', monospace;
+  color: white;
+}
+
+
+
+#top, #text{
+
+  text-align: left;
+  padding-top: 20px;
+  border-radius: 30px;
+  border: 5px solid white;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: #a970ff;
+  background-color: #BBD0FF;
+}
+#headers{
+  font-family: 'Anonymous Pro', monospace;
+  color: black;
+
+}
+a:link{
+color: #a970ff;
+}
+a:visited{
+ color: #3F37C9;
+}
+a:hover{
+color: #C8B6FF;
+}
+
+.tab {
+  overflow: hidden;
+  border: 5px solid white;
+  background-color: #bbd0ff;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  font-family: 'Anonymous Pro', monospace;
+  color: white;
+  font-size: 40px;
+  border-radius: 10px;
+  text-align: center;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin:10px 17px;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #A199FF;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #A199FF;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#sunday{
+  display: none;
+}
+#monday{
+  display: none;
+}
+
+#tuesday{
+  display: none;
+}
+
+#wednesday{
+  display: none;
+}
+
+#thursday{
+  display: none;
+}
+
+#friday{
+  display:none;
+}
+
+#saturday{
+  display:none;
+}
