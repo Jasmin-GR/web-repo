@@ -2,10 +2,16 @@
   #contacting{
     display:block;
   }
+  h1{
+    font-size: 60px;
+  }
 }
 @media screen and (max-width:701px){
  #contacting{
    display: none;
+ }
+ h1{
+   font-size:20px;
  }
 }
 nav{
@@ -48,7 +54,7 @@ h1 {
   font-family: 'Anonymous Pro', monospace;
   font-weight: 700;
   font-style: normal;
-  font-size: 75px;
+  /* font-size: 75px; */
   color: #abc4ff;
   }
   h2 {
