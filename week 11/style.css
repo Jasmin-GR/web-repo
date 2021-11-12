@@ -1,0 +1,69 @@
+@media screen and (min-width:700px){
+  #contacting{
+    display:block;
+  }
+}
+@media screen and (max-width:701px){
+ #contacting{
+   display: none;
+ }
+}
+nav{
+  display: flex;
+  width:60vw;
+  flex-wrap:wrap;
+  margin:right;
+  justify-content: right;
+
+}
+#main{
+  background-color: #edf2fb;
+}
+nav a{
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 20px;
+  margin-left: 80px;
+
+  color: #abc4ff;
+
+}
+#topic{
+
+}
+.active{
+  color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vw;
+  color: #A199FF;
+  border: 20px solid #abc4ff;
+}
+h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 75px;
+  color: #abc4ff;
+  }
+  h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #abc4ff;
+    }
+  p{
+    font-family: 'Anonymous Pro', monospace;
+    color: #abc4ff;
+    font-size: 25px;
+    text-align: center;
+
+  }
